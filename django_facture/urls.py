@@ -1,5 +1,5 @@
 """
-URL configuration for django_invoice project.
+URL configuration for django_facture project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/6.0/topics/http/urls/
@@ -17,7 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from django_invoice import settings
+from django_facture import settings
 from django.conf.urls.static import static
 
 urlpatterns = [

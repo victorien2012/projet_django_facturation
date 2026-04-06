@@ -65,7 +65,6 @@ class Article(models.Model):
     class Meta:
         verbose_name = 'Article'
         verbose_name_plural = 'Articles'
-
     @property
     def get_total(self):
         # Retourne le calcul réel
